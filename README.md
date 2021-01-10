@@ -1,4 +1,4 @@
-#README
+# README
 
 **Purpose of application:**
 -To showcase searching through images by typing text and by applying additional filters 
@@ -31,45 +31,45 @@ and a search field
 The filters are subtractive, meaning that the more toggles you press the less cards will show up. For example: if the user toggles Persia and toggles Economic, then only the cards with both Persia as a region and Economic as a suit will show up.
 
 
-EXAMPLE TESTS:
-#1
+# EXAMPLE TESTS:
+## 1
 	Region Toggle = "Kandahar"
 Cards that will be displayed (by card name): *"Baluchi Chiefs", "Bank", "British Regulars", *and* "Charles Masson"*
-#2
+## 2
 	Region Toggle = "Kandahar"
 	Rank Toggle = 2
 Cards that will be displayed (by card name): *"Bank", "British Regulars", *and* "Charles Masson"*
-#3 
+## 3 
 	Region Toggle = "Kabul"
 	Suit Toggle = "Economic"
 Cards that will be displayed (by card name): *"Balkh Arsenic Mine"* and *"City of Ghazni"*
-#4
+## 4
 	Region Toggle = "Kabul"
 	Suit Toggle = "Economic"
 	Rank Toggle = 3
 Cards that will be displayed (by card name): *"City of Ghazni"*
-#5
+## 5
 	Search Field = "tax"
 Cards that will be displayed (by card name): *"Baluchi Chiefs"* and *"Anglo-Persian Trade"*
-#6
+## 6
 	Search Field = "leverage"
 Cards that will be displayed (by card name): *"Anglo-Persian Trade", "Bank", *and* "Bukharan Jews"*
-#7
+## 7
 	Search Field = "russian"
 Cards that will be displayed (by card name):* "Baluchi Chiefs", "Anglo-Persian Trade", "Allah Quli Bahadur", *and *"British Regulars"*
-#8
+## 8
 	Search Field = "patriot" or "loyalist"
 Cards that will be displayed (by card name): *"Anglo-Persian Trade", "Army of Indus", *and* "British Regulars"*
-#9
+## 9
 	Search Field = "citadel of ghazni"
 Cards that will be displayed (by card name): *"Citadel of Ghazni"*
-#10
+## 10
 	Search Field = "prize"
 Cards that will be displayed (by card name): *"Allah Quli Bahadur", "Anglo-Persian Trade", "Army of the Indus", "Balkh Arsenic Mine", "Baluchi Chiefs", "British Regulars", "Bukharan Jews", *and *"Charles Stoddart"*
-#11
+## 11
 	Search Field = "british prize"
 Cards that will be displayed (by card name): *"Bukharan Jews"*
-#12
+## 12
 	Region Toggle = "Punjab"
 	Suit Toggle = "Military"
 	Rank Toggle = 3
